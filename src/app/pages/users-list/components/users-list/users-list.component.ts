@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { PageEvent } from '@angular/material';
 import { ActivatedRoute, Router } from '@angular/router';
 import { map } from 'rxjs/operators';
-import { UserInterface } from '../../../../interfaces';
-import { ApiService } from '../../../core/services';
+import { UserInterface } from '../../../../interfaces/index';
+import { ApiService } from '../../../../services/index';
 
 @Component({
   selector: 'app-users-list',

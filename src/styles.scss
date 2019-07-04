@@ -1,3 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
-
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+td.mat-cell:first-of-type {
+  cursor: pointer;
+}
+
+td.mat-cell:first-of-type:hover {
+  text-decoration: underline;
+  //text-decoration-color: #757575;
+}
+
+table {
+  width: 100%;
+}
+.example-card {
+  margin-bottom: 20px;
+}
+
+.user-container {
+  display: flex;
+}
+
+.user-avatar > img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.user-avatar {
+  margin-right: 5%;
+}
+
+.user-details > p:last-child {
+  font-weight: bold;
+}
+
+.example-header-image {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  object-fit: cover;
+}

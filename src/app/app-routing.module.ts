@@ -10,11 +10,11 @@ export const routes: Routes = [
 },
 {
   path: 'users',
-  loadChildren: '../modules/users-list/users-list.module#UsersListModule'
+  loadChildren: './pages/users-list/users-list.module#UsersListModule'
 },
 {
   path: 'user',
-  loadChildren: '../modules/user/user.module#UserModule'
+  loadChildren: './pages/user/user.module#UserModule'
 }
 ];
 

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { ActivatedRouteSnapshot, Resolve } from '@angular/router';
-import { ApiService } from '../../core/services';
+import { ApiService } from '../../../services/index';
 
 @Injectable()
 export class UsersResolver implements Resolve<any> {
